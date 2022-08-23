@@ -28,7 +28,7 @@ a:hover {
 @keyframes colourCycle {
   0% {
     color: var(--col-03);
-    font-size: 10px;
+    font-size: 30px;
   }
   20% {
     color:bisque;
