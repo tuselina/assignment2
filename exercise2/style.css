@@ -7,11 +7,11 @@
 :root{
   /* first two colours come from Kuroi's Manga Pallete Palette */
   /* https://lospec.com/palette-list/manga-pallete */
-  --col-01:#171219;
-  --col-02:#f2fbeb;
-  --col-03:#5252ff;
-  --col-04:#b6e878;
-  font-size: 16px;
+  --col-01:#3e2946;
+  --col-02:#e7db95;
+  --col-03:#725d91;
+  --col-04:#9e83b8;
+  font-size: 10px;
 }
 
 body{
@@ -28,10 +28,10 @@ a:hover {
 @keyframes colourCycle {
   0% {
     color: var(--col-03);
-    font-size: 30px;
+    font-size: 15px;
   }
   20% {
-    color:bisque;
+    color:rgb(250, 250, 250);
   }
   100% {
     color: var(--col-04);
@@ -124,3 +124,62 @@ li ul{
     animation: none;
   }
 }
+
+.button {
+  background-color: rgb(234, 226, 238);
+  color: black;
+  border: 1px solid #5645b8; /* Purple */
+  color: white;
+  padding: 5px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 5px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button2 { background-color: rgb(234, 226, 238);
+  color: black;
+  border: 1px solid #5645b8; /* Purple */
+  transition-duration: 0.4s;
+}
+
+.button:hover {
+  background-color: #b2a8ca; /* Light purple */
+  color: white;
+}
+
+
+.button3 {background-color: rgb(234, 226, 238);
+  color: black;
+  border: 1px solid #5645b8; /* Purple */}
+
+.button4 {background-color: rgb(234, 226, 238);
+  color: black;
+  border: 1px solid #5645b8; /* Purple */}  
+
+.button5 {background-color: rgb(234, 226, 238);
+  color: black;
+  border: 1px solid #5645b8; /* Purple */} 
+  
+.button6 {background-color: rgb(234, 226, 238);
+  color: black;
+  border: 1px solid #5645b8; /* Purple */} 
+
+
+.button {font-size: 15px;}
+.button2 {font-size: 15px;}
+.button3 {font-size: 15px;}
+.button4 {font-size: 15px;}
+.button5 {font-size: 15px;}
+.button6 {font-size: 15px;}
+
+.button {border-radius: 8px;}
+.button2 {border-radius: 8px;}
+.button3 {border-radius: 8px;}
+.button4 {border-radius: 8px;}
+.button5 {border-radius: 8px;}
+.button6 {border-radius: 8px;}
+
+
